@@ -38,7 +38,7 @@ const remove = (id, file) => {
     } else {
       const parsedData = JSON.parse(data);
       const newData = parsedData.filter((note) =>
-      note.id != id);
+        note.id != id);
       writeToFile(file, newData);
     }
   });
