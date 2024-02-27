@@ -14,6 +14,6 @@ app.use(express.static('public'));
 
 //Connects the routes declaired above
 app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('*', htmlRoutes);
 
 app.listen(PORT, () => { console.log(`Listening at http://localhost:${PORT}`) });
