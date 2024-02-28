@@ -2,7 +2,8 @@
 
 ## Description
 
-https://dnoon23.github.io/portfolio/
+Git Repo: https://dnoon23.github.io/portfolio/ <p>
+Heroku deployment: https://dnoon23-note-taker-d95e855ca67c.herokuapp.com/
 <p>
 This project was to create a note taker based on code provided.  The note taker needed to be able to save and delete notes writen in the browser as well as retreve any saved notes.  The user should also be able to naviage from the home page to the note taking page.  The most difficult part of this project was the routing.  I tried various means.  First using an injector, then using fs to write the files in the routes, and finally I settled on using and modifying helpers which were used in examples from the curriculum.
 </p>
